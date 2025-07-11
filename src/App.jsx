@@ -1,17 +1,11 @@
 import React from "react";
 import "./globals.css";
-import Api from "./apis/Api";
-import ChangeTitle from "./state/ChangeTitle";
-import Counter from "./state/Counter";
-import Accordians from "./Accordians";
+import CardGrid from "./Project/CardGrid";
 
 const App = () => {
   return (
     <>
-      {/* <Api /> */}
-      {/* <ChangeTitle />
-      <Counter /> */}
-      <Accordians />
+      <CardGrid />
     </>
   );
 };
